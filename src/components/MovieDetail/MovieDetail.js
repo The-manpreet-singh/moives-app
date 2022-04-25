@@ -5,6 +5,7 @@ import {
   fetchAsyncMovieOrShowsDetail,
   getSelectedMovieOrShow,
 } from "../../features/movies/movieSlice";
+import "./MovieDetail.scss";
 
 const MovieDetail = () => {
   const { imdbID } = useParams();
