@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Movie Application Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created a Movie app. I'm going to use React, Redux-Toolkit, react-hooks, react-routers, axios, API, Netlify, github.
+
+### [Live Site](https://main--movies-app-by-manpreet.netlify.app/)
+
+Live URL1:https://main--movies-app-by-manpreet.netlify.app/
+
+API used: https://www.omdbapi.com/
+
+Setup:
+
+- run `npm i && npm start`
 
 ## Available Scripts
 
