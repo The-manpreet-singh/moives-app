@@ -16,11 +16,13 @@ You may also see any lint errors in the console.
 
 ### `Installed Packages`
 npx create-react-app movies-app
-npm install @reduxjs/toolkit   
+npm install @reduxjs/toolkit 
+npm install react-redux      
 npm install redux              
 npm install react-router-dom   
 npm install axios              
-npm install node-sass --save   
+npm install node-sass --save  
+npm install react-slick --save // for react carousel 
 
 ### `npm test`
 
