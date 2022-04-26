@@ -1,14 +1,23 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import {
+  fetchAsyncMovies,
+  fetchAsyncShows,
+} from "../../features/movies/movieSlice";
 import user from "../../images/user.png";
 import "./Header.scss";
 
 const Header = () => {
   const [term, setTerm] = useState("");
-
+  const dispatch = useDispatch();
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log(term);
+    //console.log(term);
+    if (term === "") return alert("please enter search value");
+    dispatch(fetchAsyncMovies(term));
+    dispatch(fetchAsyncShows(term));
+    setTerm("");
   };
 
   return (
