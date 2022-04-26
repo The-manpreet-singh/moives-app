@@ -9,7 +9,7 @@ import MovieDetail from "./components/MovieDetail/MovieDetail";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Router>
         <Header />
         <div className="container">
